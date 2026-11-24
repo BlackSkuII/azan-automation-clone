@@ -1,0 +1,16 @@
+# Settings and state live on the device, never in Git
+data/
+config.yaml
+config.local.yaml
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+*.log.*
+
+# OS
+.DS_Store
